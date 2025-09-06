@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(aws secretsmanager delete-secret:*)",
+      "Bash(terraform apply:*)",
+      "Bash(aws apprunner describe-service:*)",
+      "Bash(aws logs describe-log-groups:*)",
+      "Bash(aws apprunner list-operations:*)"
+    ],
+    "deny": []
+  }
+}
