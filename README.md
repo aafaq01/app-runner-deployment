@@ -47,6 +47,7 @@ A secure, scalable document verification microservice deployed on AWS App Runner
 ├── application/              # Application code
 │   ├── src/server.js        # Express.js REST API
 │   ├── package.json         # Node.js dependencies
+│   ├── package-lock.json    # Node.js dependencies lock file
 │   ├── Dockerfile           # Container configuration
 │   └── tests/               # Test files
 ├── buildspec.yml            # CodeBuild configuration
